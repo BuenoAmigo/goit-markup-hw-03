@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=League+Gothic&family=League+Spartan:wght@400;700&family=Montserrat:wght@400;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
@@ -31,10 +32,10 @@
     </header>
     <main>
         <!-------------------------- Portfolio navigation -------------------------->
-        <div class="container">
-            <section class="portfolio-navigation">
+        <section class="portfolio-navigation">
+            <div class="container">
                 <h1 hidden>Portfolio navigation</h1>
-                <ul class="portfolio-navigation-wrap list container">
+                <ul class="portfolio-list list">
                     <li class="portfolio-navigation-item">
                         <button type="button" class="portfolio-button button link">All</button>
                     </li>
@@ -51,56 +52,75 @@
                         <button type="button" class="portfolio-button button link">Marketing</button>
                     </li>
                 </ul>
-                <!-------------------------- Work examples -------------------------->
-                <ul class="works-example list container">
-                    <div class="works-example-wrap">
-                        <li class="works-example-item card"><a href="" class="works-example-link link"><img src="./images/portfolio/banking-app.jpg" alt="Banking App Interface" class="works-example-pics" width="360" height="300">
+          </div>
+        </section>
+            <!-------------------------- Work examples -------------------------->
+        <section class="works-example">
+            <ul class="works-example-list list container">
+                <div class="works-example-wrap">
+                    <li class="works-example-item card"><a href="" class="works-example-link link"><img src="./images/portfolio/banking-app.jpg" alt="Banking App Interface" class="works-example-pics" width="360" height="300">
+                        <div class="works-wrap">
                             <h2 class="works-example-title">Banking App Interface Concept</h2>
-                                <p class="works-example-text">App</p></a>
-                        </li>
-                        <li class="works-example-item card"><a href="" class="works-example-link link"><img src="./images/portfolio/cashless.jpg" alt="Cashless Payment" class="works-example-pics" width="360" height="300">
+                            <p class="works-example-text">App</p></a>
+                        </div>
+                    </li>
+                    <li class="works-example-item card"><a href="" class="works-example-link link"><img src="./images/portfolio/cashless.jpg" alt="Cashless Payment" class="works-example-pics" width="360" height="300">
+                        <div class="works-wrap">
                             <h2 class="works-example-title">Cashless Payment</h2>
-                                <p class="works-example-text">Marketing</p></a>
-                        </li>
-                        <li class="works-example-item card"><a href="" class="works-example-link link"><img src="./images/portfolio/meditation.jpg" alt="Meditation App" class="works-example-pics" width="360" height="300">
+                            <p class="works-example-text">Marketing</p></a>
+                    </li>
+                    <li class="works-example-item card"><a href="" class="works-example-link link"><img src="./images/portfolio/meditation.jpg" alt="Meditation App" class="works-example-pics" width="360" height="300">
+                        <div class="works-wrap">
                             <h2 class="works-example-title">Meditation App</h2>
-                                <p class="works-example-text">App</p></a>
-                        </li>
-                    </div>
-                    <div class="works-example-wrap">
-                        <li class="works-example-item card"><a href="" class="works-example-link link"><img src="./images/portfolio/taxi-service.jpg" alt="Taxi Service" class="works-example-pics" width="360" height="300">
+                            <p class="works-example-text">App</p></a>
+                        </div>
+                    </li>
+                </div>
+                <div class="works-example-wrap">
+                    <li class="works-example-item card"><a href="" class="works-example-link link"><img src="./images/portfolio/taxi-service.jpg" alt="Taxi Service" class="works-example-pics" width="360" height="300">
+                        <div class="works-wrap">
                             <h2 class="works-example-title">Taxi Service</h2>
-                                <p class="works-example-text">Marketing</p></a>
-                        </li>
-                        <li class="works-example-item card"><a href="" class="works-example-link link"><img src="./images/portfolio/screen-ill.jpg" alt="Screen Illustrations" class="works-example-pics" width="360" height="300">
+                            <p class="works-example-text">Marketing</p></a>
+                        </div>
+                    </li>
+                    <li class="works-example-item card"><a href="" class="works-example-link link"><img src="./images/portfolio/screen-ill.jpg" alt="Screen Illustrations" class="works-example-pics" width="360" height="300">
+                        <div class="works-wrap">
                             <h2 class="works-example-title">Screen Illustrations</h2>
-                                <p class="works-example-text">Design</p></a>
-                        </li>
-                        <li class="works-example-item card"><a href="" class="works-example-link link"><img src="./images/portfolio/courses.jpg" alt="Online Courses" class="works-example-pics" width="360" height="300">
+                            <p class="works-example-text">Design</p></a>
+                        </div>
+                    </li>
+                    <li class="works-example-item card"><a href="" class="works-example-link link"><img src="./images/portfolio/courses.jpg" alt="Online Courses" class="works-example-pics" width="360" height="300">
+                        <div class="works-wrap">
                             <h2 class="works-example-title">Online Courses</h2>
-                                <p class="works-example-text">Marketing</p></a>
-                        </li>
-                    </div>
-                    <div class="works-example-wrap">
-                        <li class="works-example-item card"><a href="" class="works-example-link link"><img src="./images/portfolio/insta.jpg" alt="Instagram Stories Concept" class="works-example-pics" width="360" height="300">
+                            <p class="works-example-text">Marketing</p></a>
+                        </div>
+                    </li>
+                </div>
+                <div class="works-example-wrap">
+                    <li class="works-example-item card"><a href="" class="works-example-link link"><img src="./images/portfolio/insta.jpg" alt="Instagram Stories Concept" class="works-example-pics" width="360" height="300">
+                        <div class="works-wrap">
                             <h2 class="works-example-title">Instagram Stories Concept</h2>
-                                <p class="works-example-text">Design</p></a>
-                        </li>
-                        <li class="works-example-item card"><a href="" class="works-example-link link"><img src="./images/portfolio/organic-food.jpg" alt="Organic Food" class="works-example-pics" width="360" height="300">
+                            <p class="works-example-text">Design</p></a>
+                        </div>
+                    </li>
+                    <li class="works-example-item card"><a href="" class="works-example-link link"><img src="./images/portfolio/organic-food.jpg" alt="Organic Food" class="works-example-pics" width="360" height="300">
+                        <div class="works-wrap">
                             <h2 class="works-example-title">Organic Food</h2>
-                                <p class="works-example-text">Web Site</p></a>
-                        </li>
-                        <li class="works-example-item card"><a href="" class="works-example-link link"><img src="./images/portfolio/coffee.jpg" alt="Fresh Coffee" width="360" class="works-example-pics" height="300">
+                            <p class="works-example-text">Web Site</p></a>
+                        </div>
+                    </li>
+                    <li class="works-example-item card"><a href="" class="works-example-link link"><img src="./images/portfolio/coffee.jpg" alt="Fresh Coffee" width="360" class="works-example-pics" height="300">
+                        <div class="works-wrap">
                             <h2 class="works-example-title">Fresh Coffee</h2>
-                                <p class="works-example-text">Web Site</p></a>
-                        </li>
-                    </div>
-                </ul>
-            </section>
-        </div>
+                            <p class="works-example-text">Web Site</p></a>
+                        </div>
+                    </li>
+                </div>
+            </ul>
+        </section>
     </main>
     <footer class="footer">
-        <div class="footer-container container">
+        <div class="container">
             <a href="./index.html" class="footer-logo link">Web<span class="footer-studio-logo">Studio</span></a>
             <p class="footer-text">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
         </div>
