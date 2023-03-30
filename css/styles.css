@@ -399,8 +399,10 @@ body {
 }
 
 .works-text-wrap {
-  margin-top: 32px;
-  padding: 0 54px 32px 16px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 16px;
+  border: 1px solid #e7e9fc;
 }
 
 .works-example-title {
